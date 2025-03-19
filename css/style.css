@@ -1,0 +1,21 @@
+@import url("reset.css");
+
+ul > li {
+  color: blue;
+}
+
+li > h2 {
+  color: red;
+}
+
+li > h3 {
+  color: #4597f7;
+}
+
+li ~ li {
+  color: #5d5d5d;
+}
+
+span {
+  color: #a0f0fc;
+}
