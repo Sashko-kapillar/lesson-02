@@ -1,10 +1,6 @@
 @import url("reset.css");
 
-ul > li {
-  color: blue;
-}
-
-li > h2 {
+ul li {
   color: red;
 }
 
@@ -12,7 +8,23 @@ li > h3 {
   color: #4597f7;
 }
 
-li ~ li {
+ul li + li {
+  color: green;
+}
+
+ul ul li {
+  color: blue;
+}
+
+ul ul li + li {
+  color: orange;
+}
+
+ul ul ol li {
+  color: #4597f7;
+}
+
+ul ul ol li + li {
   color: #5d5d5d;
 }
 
