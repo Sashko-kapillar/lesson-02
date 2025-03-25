@@ -13,18 +13,9 @@
 }
 
 @font-face {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
     url("../fonts/Poppins.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins", sans-serif;
-  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
-    url("../fonts/Poppins-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -33,6 +24,13 @@
 :root {
   /*шрифти*/
   --font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* background-color: #fbfbfb; */
+  font-family: "Poppins", sans-serif;
+  padding: 1em;
+  /* color: #0c0c0c; */
 }
 
 h2 {
